@@ -7,6 +7,7 @@ services:
       - ~/.composer/cache:/var/www/composer-cache-dir:Z
       - .:/project:Z
       - .:/var/www/shopware:Z
+    tty: true
     links:
       - app_mysql:mysql
     environment:
