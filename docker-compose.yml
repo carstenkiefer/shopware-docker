@@ -16,6 +16,7 @@ services:
       SW_HOST: 51.77.245.92
     ports:
       - "8083:80"
+      - "9999:9000"
 
   app_mysql:
     build: dev-ops/docker/containers/mysql
