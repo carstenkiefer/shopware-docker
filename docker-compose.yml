@@ -13,7 +13,7 @@ services:
     environment:
       TERM: xterm
       COMPOSER_CACHE_DIR: /var/www/composer-cache-dir
-      SW_HOST: 51.77.245.92
+      SW_HOST: git.hoefer-chemie.de
     ports:
       - "8083:80"
       - "9999:9000"
